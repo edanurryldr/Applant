@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="collapsing" type="id" />
+    <item name="plant_price" type="id" />
+    <item name="plant_description" type="id" />
+    <item name="btnCart" type="id" />
+    <item name="number_button" type="id" />
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/applantbackground"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Model.SignUp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/edtNameEntry"
+            android:text="EDANUR YILDIRIM"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorWhite"
+            android:layout_marginTop="40dp"
+            android:hint="Name..."
+
+            />
+
+        <EditText
+            android:id="@+id/edtEmailEntry"
+            android:text="edanurryildirim@gmail.com"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorWhite"
+            android:layout_marginTop="45dp"
+            android:hint="Email..."
+
+
+            />
+
+        <EditText
+            android:id="@+id/edtPasswordEntry"
+            android:text="123456"
+            android:ems="10"
+            android:hint="Password..."
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SIGN  UP" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

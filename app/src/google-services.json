@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720342474602",
+    "firebase_url": "https://applant2.firebaseio.com",
+    "project_id": "applant2",
+    "storage_bucket": "applant2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720342474602:android:de7b68e3a92612676c0f13",
+        "android_client_info": {
+          "package_name": "com.edanuryildirim.applant.Activities.Model"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720342474602-3l52t7b4l05ma5gaamkp5dqjcmc9pr1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edanuryildirim.applant.Activities.Model",
+            "certificate_hash": "b3b8b6a754561d9c79cdd1317f52021b7b645a22"
+          }
+        },
+        {
+          "client_id": "720342474602-or7t1b4juv5h9nghesebpf3dlni6f7o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWC6klCFDNdv4Y8cEXwQGXPQawgA-N7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720342474602-or7t1b4juv5h9nghesebpf3dlni6f7o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
